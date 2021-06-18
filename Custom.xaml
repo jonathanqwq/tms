@@ -1,0 +1,37 @@
+﻿
+
+<local:MyCard Title="如何加入服务器 ？" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="
+		第一步：我们并不使用正版账号登录，所以你需要在tms皮肤站额外注册一个账号。前往 tms皮肤站 注册账号，创立角色，选择或上传自己喜欢的皮肤和披风。
+		" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="
+		第二步：" />
+		<local:MyButton Margin="0,8,0,0" Width="250" Height="35"
+                   Text="完成问卷" EventType="打开网页" EventData="https://wj.qq.com/s2/8246139/de24/" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="
+		第三步：用刚才注册的邮箱和密码登录。" />
+		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="
+		第四步：打开游戏。" />
+	</StackPanel>
+</local:MyCard>
+<local:MyCard Title="启动游戏" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+      <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
+                 Text="启动 Minecraft 1.16.5" EventType="启动游戏" EventData="tms服务器" />
+      <local:MyButton Margin="0,8,0,0" Width="250" Height="35"
+                 Text="使用 1.16.5 进入 tms服务器" EventType="启动游戏" EventData="tms服务器|cn-zz-bgp-4.natfrp.cloud:63962" ToolTip="服务器 IP：cn-zz-bgp-4.natfrp.cloud:63962" />
+    </StackPanel>
+	
+</local:MyCard>
+<local:MyCard Title="刷新" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+	  <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                 Text="刷新主页" EventType="刷新主页" ToolTip="" />
+    </StackPanel>
+	
+</local:MyCard>
